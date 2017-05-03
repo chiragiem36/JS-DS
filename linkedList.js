@@ -83,7 +83,7 @@ function linkedList(){
 				current = this.head;
 				var previous;
 				n = 0;
-				if(i>0 && i<this.length){
+				if(i>-1 && i<this.length){
 					if(i === 0){
 						this.head = current.next;
 					} else {
